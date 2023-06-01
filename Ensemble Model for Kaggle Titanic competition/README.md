@@ -12,7 +12,7 @@ The dataset folder **titanic** contains the training and testing datasets in CSV
 The notebook file includes the code for data preprocessing, where missing values are handled and features are transformed. It also includes data visualization techniques to gain insights into the data and understand the correlations between different variables.
 
 ## Ensemble Model
-The ensemble model is constructed using a stacking technique, combining the predictions of multiple base models. The following base models are used: RandomForestClassifier, SVC, GradientBoostingClassifier, and LogisticRegression. The predictions of these models are then used as input to a meta-algorithm, XGBoost, which generates the final predictions.
+The ensemble model is constructed using a stacking technique, combining the predictions of multiple base models. The following base models are used: RandomForestClassifier, Support Vector Classifier, GradientBoostingClassifier, and LogisticRegression. The predictions of these models are then used as input to a meta-algorithm, XGBoost, which generates the final predictions.
 
 ## Stacking
 Stacking is a method of combining multiple models by training a meta-model on their predictions. In this case, the predictions of the base models are stacked together and used as input features for the meta-model. This allows the ensemble model to leverage the strengths of each base model and improve overall prediction accuracy.
